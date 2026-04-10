@@ -1,0 +1,11 @@
+{
+  "name": "gda-render-engine",
+  "version": "1.1.0",
+  "description": "GDA Visual Rendering Engine — HTML/CSS to PNG via Puppeteer, uploads to Cloudflare R2",
+  "private": true,
+  "dependencies": {
+    "@sparticuz/chromium": "^131.0.0",
+    "puppeteer-core": "^23.0.0",
+    "@aws-sdk/client-s3": "^3.600.0"
+  }
+}
