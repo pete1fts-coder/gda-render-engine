@@ -95,7 +95,7 @@ function buildTemplateData(template, data) {
       source: ""
     },
     "dark-list": {
-      titleFontSize: autoFontSize(data.title, 52, 50),
+      titleFontSize: autoFontSize(data.title, 62, 45),
       eyebrow: ""
     },
     "bold-question": {

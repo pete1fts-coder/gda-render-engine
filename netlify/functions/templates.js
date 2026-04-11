@@ -241,13 +241,13 @@ const TEMPLATES = {
   .rule-top{position:absolute;top:60px;left:6%;right:6%;z-index:5}
   .rule-bottom{position:absolute;bottom:200px;left:6%;right:6%;z-index:5}
   .top-section{position:absolute;top:80px;left:0;right:0;display:flex;flex-direction:column;align-items:center;z-index:5;padding-top:20px}
-  .content{position:absolute;inset:0;padding:280px 80px 240px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;z-index:5}
-  .eyebrow{font-family:'Montserrat',sans-serif;font-weight:500;font-size:13px;color:#C9A84C;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:36px}
-  .title{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:{{titleFontSize}}px;color:#FFFFFF;line-height:1.2;max-width:880px;margin-bottom:44px}
+  .content{position:absolute;inset:0;padding:380px 80px 240px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;z-index:5}
+  .eyebrow{font-family:'Montserrat',sans-serif;font-weight:500;font-size:13px;color:#C9A84C;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:28px}
+  .title{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:{{titleFontSize}}px;color:#FFFFFF;line-height:1.15;max-width:920px;margin-bottom:36px}
   .list-items{width:100%;max-width:820px;text-align:left}
-  .list-item{display:flex;align-items:baseline;gap:20px;margin-bottom:28px}
-  .item-num{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:36px;color:#C9A84C;line-height:1;min-width:36px}
-  .item-text{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:28px;color:rgba(255,255,255,0.85);line-height:1.45}
+  .list-item{display:flex;align-items:baseline;gap:20px;margin-bottom:24px}
+  .item-num{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:42px;color:#C9A84C;line-height:1;min-width:40px}
+  .item-text{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:34px;color:rgba(255,255,255,0.88);line-height:1.4}
   .footer{position:absolute;bottom:80px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:20px;z-index:5}
   ${HANDLE_PLAIN_CSS}
 </style>
